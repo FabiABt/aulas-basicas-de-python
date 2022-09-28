@@ -21,4 +21,4 @@ print(frase.count("a"))
 print(frase.count("a", 0,25))
   #frase.find("ama") vai dizer quantas vezes foi encontrada a sequencia "ama", vai indicar o momento em que começou a sequencia
 print(frase.find("ama"))
-  # 
+# frase.find("ios") se colocar ums string que não existe ela vai retornar -1 
