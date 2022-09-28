@@ -4,11 +4,13 @@
 # c) quantas letras tem o nome sem considerar os pepaços
 # d) quantas letras tem o primeiro nome 
 nome = str(input(" Digite seu nome completo: "))
-print("nome : {}".format(nome))
+print("Analisando seu nome...")
+print("O seu nome é : {}".format(nome))
 #a
-print(nome.upper())
+print("O seu nome em maiusculo é: {}".format(nome.upper()))
 #b
-print(nome.lower())
+print("O seu nome minusculo é: {}".format(nome.lower()))
 #c
-print(len(nome.replace(" ", "")))
-print(len(nome.split()[0]))
+print("Seu nome tem: {} letras".format(len(nome.replace(" ", ""))))
+#d
+print("O seu primeiro nome tem: {} letras".format(len(nome.split()[0])))
