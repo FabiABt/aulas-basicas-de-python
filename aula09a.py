@@ -2,7 +2,7 @@
 # FATIAMENTO
 frase = "O Michel faz programas em java, c#, kotlin, python e ele também joga dota"
 print(frase)
-#fatiamento 
+#################### FATIAMENTO 
 #dessa forma imprime apenas a letra na posição 9
 print(frase[9])
 #fatiamento selecionando o inico e o fim da frase desejada ex [9:22] ela inicia com a letra na posiçao 9 e finaliza na posicão 21 
@@ -13,7 +13,7 @@ print(frase[9:])
 print(frase[:22])
 # fatiamento com casas a ser "puladas"[9::3] ou seja vai pular 3 casas sendo ignorados os outros caracteres
 print(frase[9::3])
-# ANALISE 
+#################### ANALISE 
 # len(frase) analisa o compimento da frase 
 print( len(frase))
 # .count() conta quantas letras selecionadas possue na frase , se quisermos saber quantas letras "a" por exemplo. ha diferença entre maiusculas e minusculas
@@ -26,7 +26,7 @@ print(frase.find("ios"))
 # Usando o oparador   IN ex: "curso" in frase vai retornar um valor em bolleano (true or false)
 print("curso" in frase)
 print("joga" in frase)
-# Transformação
+##################### Transformação
 # usando operador para mudar a saida da string, já que a string é imutável não substiue na frase original somente na saída/ frase.replace ("Michel", "Robson")
 print(frase.replace("Michel","Robson"))
 print(frase.replace("Michel", "vai Robson"))
@@ -46,7 +46,7 @@ print(xs.strip())
 print(xs.rstrip())
 #frase.lstrip elimina espaços vazios a esquerda 
 print(xs.lstrip())
-#FUNCIONALIDADE DE DIVISÃO 
+#########################FUNCIONALIDADE DE DIVISÃO 
 # frase.split() ocorre uma divisão onde se tem os espaços, ou seja gera nova lista nas palavras e reconta casa elemento da nova lista 
 print(xs.split())
 #  "-".join(frase) junta todos os elementos utilizando o - entre elas 
