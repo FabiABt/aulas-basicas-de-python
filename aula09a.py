@@ -40,7 +40,7 @@ print(frase.capitalize())
 print(frase.title())
 # exemplo com espaços vazios 
 xs = "   O Michel faz piadas ruins  "
-# frase.stripe.. nesse caso xs.strip elimina os espaços vazios dasd estremindades da frase
+# frase.stripe.. nesse caso xs.strip elimina os espaços vazios das estremindades da frase
 print(xs.strip())
 # frase.rstrip() elimina espaçao vazios a direita ou seja no final da frase 
 print(xs.rstrip())
@@ -49,5 +49,5 @@ print(xs.lstrip())
 #########################FUNCIONALIDADE DE DIVISÃO 
 # frase.split() ocorre uma divisão onde se tem os espaços, ou seja gera nova lista nas palavras e reconta casa elemento da nova lista 
 print(xs.split())
-#  "-".join(frase) junta todos os elementos utilizando o - entre elas 
+#  "-".join(frase) todos os elementos de UMA LISTA utilizando o - entre elas (tem que ser LISTA ex: [casa, ,carro, bicilceta])
 print('-'.join(frase))
