@@ -8,7 +8,7 @@ print(num)
 print(type(num))
 print(n1)
 print(type(n1))
-soma =  num + n1
+soma =  num + n1 
 print(soma)
 print(type(soma))
 aluna = 'Maria' #str
