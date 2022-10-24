@@ -7,4 +7,4 @@ incluir = (str(input(" Digite um nome para adicionar a lista : ")))
 nutricionistas.append(incluir)  # append() adiciona elementos no final de uma lista
 print ( "A nova lista é : {}" .format(nutricionistas))
 nutricionistas.insert(2,"Aline") ##### insert(). Ele usa dois parâmetros: 1* posição da lista 2* o item a ser adicionado na lista.
-print(nutricionistas)
+print(nutricionistas) 

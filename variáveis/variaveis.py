@@ -4,7 +4,7 @@
 # tipos de variaveis : str, int, float, complex, bool, list, tuple, dict
 num = 5 # int
 n1 = 3.5 #float
-print(num)
+print(num) 
 print(type(num))
 print(n1)
 print(type(n1))
